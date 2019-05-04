@@ -15,7 +15,7 @@ html {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
-  color: #42474F;
+  color: #000;
 }
 
 .header_text, h1, h2, input {
@@ -57,19 +57,21 @@ header img {
   justify-content: space-around;
   padding-top:4.375em;
   position: relative;
+  text-align: center;
 }
 
 h1 {
   font-size: 3em;
+  margin: 0 0.5em;
 }
 
 h2,
   ul li {
   font-size: 2em;
+  margin: 0 0.5em;
 }
 
 p {
-  width: 60%;
   font-size: 1em;
   letter-spacing: 0.05em;
   line-height: 1.2em;
@@ -93,9 +95,11 @@ p {
   #sign_up_section h2 {
     color: white;
   }
+
 form {
   margin: 0.5em 0;
 }
+
 form input {
   height: 50px;
 	width: 335px;
@@ -121,12 +125,23 @@ form input {
 .submit:hover {
   background: linear-gradient(208.92deg, #0B10E6 0%, #2428AF 100%);
   color: white;
+  box-shadow: 0 1px 10px 3px #FFF;
+}
+
+#sign_up_section p {
+  width: 60%;
 }
 
 /* About section */
 #about_section .content_area {
   height: 100vh;
   width: 50%;
+}
+
+.conversation {
+  height: auto;
+  width: auto;
+  max-width: 90%;
 }
 
 ul {
@@ -148,10 +163,11 @@ ul li {
 
 .look_down p {
   text-align: center;
+  color: #0B0FE6;
 }
 
 i {
-  border: solid black;
+  border: solid #0B0FE6;;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
@@ -160,6 +176,37 @@ i {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+
+/* More Details Section */
+#more_details {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
