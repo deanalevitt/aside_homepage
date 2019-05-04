@@ -18,9 +18,155 @@ html {
   color: #42474F;
 }
 
-.header_text {
+.header_text, h1, h2, input {
   font-family: AvertaStdPE-Bold;
 	font-weight: normal;
 	font-style: normal;
   color: #000;
 }
+
+/* Header */
+header {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 100;
+}
+#banner {
+  padding: 1.3125em 0 1.3125em 4.35em;
+  box-shadow: inset 0 -0.5px 0 0 rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+}
+header img {
+  height: 1.75em;
+  margin-right: 0.731875em;
+}
+#brandname {
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.25em;
+}
+
+/* Sections */
+.content_area {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top:4.375em;
+  position: relative;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2,
+  ul li {
+  font-size: 2em;
+}
+
+p {
+  width: 60%;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  line-height: 1.2em;
+}
+
+/* Sign up Section */
+#sign_up_section {
+  background: linear-gradient(208.92deg, #0B10E6 0%, #2428AF 100%);
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 2px solid rgba(188,190,194,0.5);
+  color: white;
+  position: fixed;
+  left:50%
+}
+
+#sign_up_section h1,
+  #sign_up_section h2 {
+    color: white;
+  }
+form {
+  margin: 0.5em 0;
+}
+form input {
+  height: 50px;
+	width: 335px;
+  border: none;
+  border-radius: 25px;
+  border: 2px solid rgba(188,190,194,0.5);
+  box-shadow: 0 5px 25px 0 rgba(0,0,0,0.05);
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 0;
+}
+
+.email_input {
+  margin-bottom: 1em;
+  color: #5A6069;
+}
+
+.submit {
+  color: #0B10E6;
+}
+.submit:hover {
+  background: linear-gradient(208.92deg, #0B10E6 0%, #2428AF 100%);
+  color: white;
+}
+
+/* About section */
+#about_section .content_area {
+  height: 100vh;
+  width: 50%;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+  margin-bottom: 1em;
+}
+
+/* Down Arrow */
+.look_down {
+    width: 10em;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-left: -5em;
+}
+
+.look_down p {
+  text-align: center;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
+/*  */
