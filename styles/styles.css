@@ -1,0 +1,26 @@
+/* Font Classes */
+/* .AvertaStdPE-Bold {
+	font-family: AvertaStdPE-Bold;
+	font-weight: normal;
+	font-style: normal;
+}
+.AvertaStdPE-Regular {
+	font-family: AvertaStdPE-Regular;
+	font-weight: normal;
+	font-style: normal;
+} */
+
+/* General styles */
+html {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  color: #42474F;
+}
+
+.header_text {
+  font-family: AvertaStdPE-Bold;
+	font-weight: normal;
+	font-style: normal;
+  color: #000;
+}
