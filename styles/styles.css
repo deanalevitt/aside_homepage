@@ -18,7 +18,7 @@ html {
   color: #000;
 }
 
-.header_text, h1, h2, input {
+.header_text, h1, h2, h3, input {
   font-family: AvertaStdPE-Bold;
 	font-weight: normal;
 	font-style: normal;
@@ -32,16 +32,19 @@ header {
   position: fixed;
   z-index: 100;
 }
+
 #banner {
   padding: 1.3125em 0 1.3125em 4.35em;
   box-shadow: inset 0 -0.5px 0 0 rgba(0,0,0,0.1);
   display: flex;
   align-items: center;
 }
+
 header img {
   height: 1.75em;
   margin-right: 0.731875em;
 }
+
 #brandname {
   text-transform: uppercase;
   font-size: 1em;
@@ -71,6 +74,10 @@ h2,
   margin: 0 0.5em;
 }
 
+h3 {
+  font-size: 1.325em;
+}
+
 p {
   font-size: 1em;
   letter-spacing: 0.05em;
@@ -85,7 +92,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-left: 2px solid rgba(188,190,194,0.5);
+  /* border-left: 1px solid #5A6069; */
   color: white;
   position: fixed;
   left:50%
@@ -138,10 +145,15 @@ form input {
   width: 50%;
 }
 
-.conversation {
-  height: auto;
-  width: auto;
-  max-width: 90%;
+#benefits {
+  background-color: white;
+  background-image: url("../images/priscilla-du-preez-234138-unsplash.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 0px 1px 5px black;
 }
 
 ul {
@@ -163,11 +175,11 @@ ul li {
 
 .look_down p {
   text-align: center;
-  color: #0B0FE6;
+  color: white;
 }
 
 i {
-  border: solid #0B0FE6;;
+  border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
@@ -184,13 +196,57 @@ i {
   width: 50%;
 }
 
+.details_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+#what {
+  background-color: #F1F3F6;
+  /* justify-content: space-around; */
+}
 
+.text_area {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
 
+.text_area img {
+  height: auto;
+  width: 100%;
+}
 
+#discussion img {
+  height: 35em;
+  width: auto;
+}
 
+#how {
+  background-color: #F1F3F6
+}
 
+#early {
+  background-image: url("../images/nicholas-green-324622-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 0px 1px 5px black;
+}
 
+#early h1,
+  #early h2,
+    #early h3 {
+    color: white;
+    text-shadow: 0px 1px 5px black;
+  }
 
 
 
