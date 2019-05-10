@@ -150,7 +150,7 @@ form input {
 
 #benefits {
   background-color: white;
-  background-image: url("../images/priscilla-du-preez-234138-unsplash.jpg");
+  background-image: url("../images/priscilla-du-preez-234138-unsplash-min.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -237,7 +237,7 @@ i {
 }
 
 #early {
-  background-image: url("../images/nicholas-green-324622-unsplash.jpg");
+  background-image: url("../images/nicholas-green-324622-unsplash-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -252,29 +252,3 @@ i {
     text-shadow: 0px 1px 5px black;
     text-align: center;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  */
