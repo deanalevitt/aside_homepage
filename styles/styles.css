@@ -125,13 +125,18 @@ form input {
 }
 
 .email_input {
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
   color: #5A6069;
+}
+
+div.required {
+  margin-bottom: 1em;
 }
 
 .submit {
   color: #0B10E6;
 }
+
 .submit:hover {
   background: linear-gradient(208.92deg, #0B10E6 0%, #2428AF 100%);
   color: white;
@@ -145,6 +150,10 @@ form input {
   background-color: white;
   padding: 0.5em;
   border: 1px solid red;
+}
+
+.disabled {
+  color: red;
 }
 
 #sign_up_section p {
