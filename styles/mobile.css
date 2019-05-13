@@ -32,8 +32,8 @@
     width: 98%;
   }
 
-  .details_container {
-    min-height: 100vh;
+  .desktop_only {
+    display: none;
   }
 
 }
