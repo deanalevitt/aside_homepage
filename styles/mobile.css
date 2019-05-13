@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1024px) {
+
+  #sign_up_section {
+    position: static;
+    width: 100%;
+  }
+
+  .look_down {
+    left: 50%;
+  }
+
+  #more_details,
+    #about_section .content_area {
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+  form input {
+    max-width: 335px;
+    width: 98%;
+  }
+
+  #sign_up_section p {
+    width: 98%;
+  }
+
+}
