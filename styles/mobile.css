@@ -23,6 +23,19 @@
     display: none;
   }
 
+  #sign_up_section h2 {
+    margin-bottom: 1em;
+  }
+
+  #sign_up_section p {
+    width: 80%;
+    margin: 1em 0.5em;
+  }
+
+  #more_details p {
+    margin: 1em 0.5em;
+  }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -50,5 +63,12 @@
     display: none;
   }
 
+  #sign_up_section p {
+    width: 80%;
+    margin: 1em 0.5em;
+  }
 
+  #more_details p {
+    margin: 1em 0.5em;
+  }
 }
