@@ -277,6 +277,7 @@ i {
 #legal {
   padding-top: 10em;
   align-items: baseline;
+  padding-bottom: 4em;
 }
 
 #legal h1 {
@@ -302,6 +303,6 @@ i {
   margin-left: 24%;
 }
 
-.bullet span {
+.bullet span, .bold {
   font-weight: bold;
 }
