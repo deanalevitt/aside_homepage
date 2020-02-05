@@ -52,7 +52,9 @@ header img {
   letter-spacing: 0.25em;
 }
 
-
+a {
+  text-decoration: none;
+}
 
 /* Sections */
 .content_area {
@@ -305,4 +307,15 @@ i {
 
 .bullet span, .bold {
   font-weight: bold;
+}
+
+.terms {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0 1em 0.5em 0;
+}
+
+.terms a {
+  color: white;
 }
