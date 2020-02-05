@@ -71,4 +71,16 @@
   #more_details p {
     margin: 1em 0.5em;
   }
+
+  #legal h2,
+    #legal h3,
+      #legal p {
+        margin:1em 5% 0 5%;
+      }
+  #legal .bullet, #legal .indentBullet {
+    margin-left: 7%;
+  }
+  #legal .indentBullet {
+    margin-left: 10%;
+  }
 }

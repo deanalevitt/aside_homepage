@@ -285,6 +285,7 @@ i {
 
 #legal h2, #legal h3 {
   margin: 1em 20% 0 20%;
+  text-align: left;
 }
 
 #legal p {
